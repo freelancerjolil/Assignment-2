@@ -3,7 +3,7 @@
  /* navbar responsive Start   */
   .navbar{
     margin: 0;
-    padding: 50px 20px 5px 20px;
+    padding: 30px 20px 5px 20px;
   }
   .nav-links {
     display: none;
@@ -11,5 +11,5 @@
   .hamberger {
     display: block;
     /* navbar responsive Ends  */
-    
+
 }

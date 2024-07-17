@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face{
+  font-family: miama;
+  src: url('../fonts/Miama.woff2') format('truetype');
+  font-weight: 400;
+}
 
 * {
   margin: 0;
@@ -11,6 +16,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background: #000000;
 }
 
 /* shared style */
@@ -19,21 +25,23 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/* navbar starts here */
 .navbar {
   max-width: 1440px;
-  border: 2px solid #dadada;
+  /* border: 2px solid #dadada; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  margin-top: 57px;
+  padding-top:50px ;
+  
 }
 .navbar h1 {
   color: #e6533c;
   font-size: 38px;
   font-weight: 800;
 }
+
 .btn-home {
   color: white;
   background-color: #e6533c;
@@ -43,6 +51,7 @@ body {
   cursor: pointer;
 }
 .nav-links {
+  color: white;
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50px;
@@ -57,6 +66,151 @@ body {
   corsor: pointer;
 }
 .hamberger {
+  color: white;
   font-size: 25px;
   display: none;
 }
+/* navbar Ends here */
+
+/* banner section starts here */
+.banner-container {
+  width: 100%;
+  height: 752px;
+  border: 0;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.banner{
+  max-width:1440px ;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 32px;
+  gap: 54px;
+  
+}
+.banner-left-container{
+  width: 50%;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  
+
+}
+.banner-left-container h1{
+  font-size: 78px;
+  font-weight: 800;
+  color: white;
+  row-height: 1px;
+  line-height: 80px;
+  margin-top: 80px;
+  margin-bottom: 28px;
+
+}
+.banner-left-container span{
+  font-family: miama;
+  font-weight: 400;
+  font-size: 7rem;
+}
+
+.banner-left-container p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  padding-right: 200px;
+  margin-bottom: 28px;
+
+}
+.banner-btn1{
+  color: white;
+  background-color: #e6533c;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 40px 16px 40px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.banner-btn2{
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 16px 40px 16px 40px;
+  cursor: pointer;
+}
+.banner-right-container{
+  width: 50%;
+  /* border: 2px solid blue; */
+}
+.banner-right-container img{
+  /* border: 2px solid blue; */
+  float: right;
+  position: relative;
+}
+.banner-child-1{
+  width: max-content;
+  backdrop-filter: blur(20px);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  position: absolute;
+  right: 150px;
+  top: 250px;
+}
+.banner-child-1 h1{
+  font-size: 48px;
+  font-weight: 800;
+}
+.banner-child-1 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFFA6;
+}
+
+.banner-child-2{
+  width: 206px;
+  height: 96px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 30px;
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  right: 500px;
+  bottom: 300px;
+  
+  
+}
+.banner-child-2 h1{
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.banner-child-2 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFFA6;
+  margin-left: 40px;
+}
+
+.banner-child-3{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e6533c;
+  position: absolute;
+  right: 650px;
+  bottom: 325px;
+
+}
+
+
+
+/* banner section Ends here */
