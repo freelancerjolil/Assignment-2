@@ -14,5 +14,49 @@ body {
 }
 
 /* shared style */
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.navbar {
+  max-width: 1440px;
+  border: 2px solid #dadada;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+.navbar h1 {
+  color: #e6533c;
+  font-size: 38px;
+  font-weight: 800;
+}
+.btn-home {
+  color: white;
+  background-color: #e6533c;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.nav-links {
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 3vw;
+  padding: 10px;
+}
+.nav-links li {
+  corsor: pointer;
+}
+.hamberger {
+  font-size: 25px;
+  display: none;
+}
