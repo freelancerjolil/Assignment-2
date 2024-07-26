@@ -1,7 +1,7 @@
 /* Responsive for Mobile Device */
 @media screen and (max-width: 576px) {
- /* navbar responsive Start   */
-  .navbar{
+  /* navbar responsive Start   */
+  /* .navbar {
     margin: 0;
     padding: 30px 20px 5px 20px;
   }
@@ -10,6 +10,9 @@
   }
   .hamberger {
     display: block;
-    /* navbar responsive Ends  */
+  } */
+  /* navbar responsive Ends  */
 
+  /* Banner Starts here  */
 }
+/* Banner SEnds here  */
