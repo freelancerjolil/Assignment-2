@@ -303,7 +303,7 @@ main > section {
 .image-container4 {
   width: 25%;
 }
-/* Section 3 Design Starts  */
+/* Run an Extra Section start Here */
 
 .main-container {
   width: 1040px;
@@ -344,9 +344,8 @@ main > section {
   background-color: #e6533c;
   color: white;
   border: none;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 22px;
+  font-size: 18px;
+  font-weight: 600;
   padding: 16px 40px;
   border-radius: 50px;
   cursor: pointer;
@@ -363,6 +362,29 @@ main > section {
   border-radius: 18px;
   /* border: 2px solid #9e06c4; */
 }
+
+/* Trainer Container Start Here */
+.training-container{
+  border: 2px solid #9e06c4;
+  min-height: 600px;
+  margin-top: 100px;
+  color: #FFFFFFA6;
+  padding: 24px;
+}
+.training-container h2{
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.training-container p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+  width: 60%;
+}
+
+
 
 .teams-title {
   display: flex;
