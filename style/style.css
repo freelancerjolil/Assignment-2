@@ -165,8 +165,10 @@ main > section {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   position: absolute;
-  right: 350px;
-  top: 250px;
+  /* right: 350px;
+  top: 250px; */
+  top: 25%;
+  left: 70%;
 }
 .banner-child-1 h1{
   font-size: 48px;
@@ -188,8 +190,10 @@ main > section {
   border-radius: 8px;
   backdrop-filter: blur(20px);
   position: absolute;
-  right: 700px;
-  bottom: 300px;
+  /* right: 700px;
+  bottom: 300px; */
+  top: 60%;
+  left: 52%;
   
   
 }
@@ -213,8 +217,10 @@ main > section {
   border-radius: 50%;
   background: #e6533c;
   position: absolute;
-  right: 850px;
-  bottom: 325px;
+  /* right: 850px;
+  bottom: 325px; */
+  top: 63.5%;
+  left: 53%;
   
 
 }
