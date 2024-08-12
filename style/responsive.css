@@ -1,18 +1,63 @@
 /* Responsive for Mobile Device */
 @media screen and (max-width: 576px) {
-  /* navbar responsive Start   */
-  /* .navbar {
-    margin: 0;
-    padding: 30px 20px 5px 20px;
+  .hamberger {
+    display: block;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
   }
   .nav-links {
     display: none;
   }
-  .hamberger {
-    display: block;
-  } */
-  /* navbar responsive Ends  */
+  .navbar,
+  .banner {
+    max-width: 90%;
+  }
 
-  /* Banner Starts here  */
+  .banner-left-container {
+    width: 100%;
+  }
+
+  .bmi-calculator {
+    margin-left: 50px;
+  }
+  .banner {
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .banner img {
+    max-width: 100%;
+  }
+
+  .banner-left-container h1 {
+    font-size: 5rem;
+  }
+  .banner-child-1 {
+    padding: 15px 25px;
+    top: 90%;
+    left: 55%;
+  }
+  .banner-child-1 h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+  .banner-child-2 {
+    top: 108%;
+    left: 10%;
+  }
+  .banner-child-2 h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .banner-child-2 p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .banner-child-3 {
+    top: 112%;
+    left: 13%;
+  }
 }
-/* Banner SEnds here  */
