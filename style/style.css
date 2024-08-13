@@ -16,6 +16,14 @@ body {
   width: 100%;
   background: #000000;
 }
+/* Shared Style */
+.btn-primary {
+  background-color: #e6533c;
+  color: aliceblue;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 main{
   max-width: 1060px;
   margin: 0 auto; 
@@ -151,8 +159,6 @@ main > section {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   position: absolute;
-  /* right: 350px;
-  top: 250px; */
   top: 25%;
   left: 70%;
 }
@@ -175,8 +181,6 @@ main > section {
   border-radius: 8px;
   backdrop-filter: blur(20px);
   position: absolute;
-  /* right: 700px;
-  bottom: 300px; */
   top: 60%;
   left: 52%; 
 }
@@ -199,31 +203,19 @@ main > section {
   border-radius: 50%;
   background: #e6533c;
   position: absolute;
-  /* right: 850px;
-  bottom: 325px; */
-  top: 63.5%;
+  top: 63.5%; 
   left: 53%;
+  
 }
 /* Main Section start here */
-.container {
-  width: 90%;
-  margin: 5rem auto;
-  border-radius: 1rem;
-}
 .circular-image {
-  width: 180px; /* Adjust the width as needed */
-  height: 180px; /* Adjust the height as needed */
+  width: 180px;
+  height: 180px; 
   border-radius: 50%;
   border: 5px solid #1a1a1a;
   object-fit: cover;
 }
-.btn-primary {
-  background-color: #e6533c;
-  color: aliceblue;
-  border-radius: 8px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
+
 /* main section styles start here */
 .parents {
   max-width: 1060px;
@@ -266,12 +258,11 @@ main > section {
   margin: 0 auto;
 }
 .child-container > .image-container1{
-  width: 25%;
+  /* width: 25%; */
 }
 /* Run an Extra Section start Here */
 .main-container {
   width: 1060px;
-  height: 371px;
   margin: 0 auto;
   background: #222222;
   padding: 24px;
@@ -356,10 +347,15 @@ main > section {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
+.row-1-images> div img {
+  object-fit: cover;
+  width: 100%;
+
+}
 .row-2-images{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .bmi-calculator5{
   /* border:2px solid #9e06c4; */
