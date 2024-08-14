@@ -7,7 +7,9 @@
     cursor: pointer;
     margin-right: 20px;
   }
-  .nav-links {
+  .nav-links,
+  .trainer-name5,
+  .trainer-name6 {
     display: none;
   }
   .navbar,
@@ -129,6 +131,26 @@
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
+  }
+  .trainer img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .trainer-name {
+    top: 22%;
+    left: 20%;
+  }
+  .trainer-name2 {
+    top: 47%;
+    left: 20%;
+  }
+  .trainer-name3 {
+    top: 70%;
+    left: 20%;
+  }
+  .trainer-name4 {
+    top: 95%;
+    left: 20%;
   }
 
   .footer {
