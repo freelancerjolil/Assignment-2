@@ -17,8 +17,16 @@
     max-width: 90%;
   }
 
-  .banner-left-container {
+  .banner-left-container,
+  .banner-right-container {
     width: 100%;
+  }
+  .banner-title h1 {
+    width: 576px;
+    font-size: 20px;
+  }
+  .banner-left-container p {
+    padding-right: 0;
   }
   .banner,
   .footer-container,
@@ -36,34 +44,38 @@
     margin-top: 20px;
   }
   .training-container p {
-    width: 85%;
+    width: 90%;
   }
   .banner img {
-    max-width: 100%;
+    width: 100%;
   }
   .bmi-calculator-heading {
     max-width: 90%;
     margin-top: 100px;
   }
-  .bmi-calculator-heading p {
-    max-width: 90%;
+  .btn-banner button {
+    width: 100%;
+    margin-bottom: 15px;
   }
 
   .banner-left-container h1 {
-    font-size: 5rem;
+    width: 100%;
+    font-size: 3.8rem;
   }
+
   .banner-child-1 {
-    padding: 15px 25px;
-    top: 100%;
-    left: 55%;
+    padding: 10px 20px;
+    top: 90%;
+    left: 50%;
   }
   .banner-child-1 h1 {
     font-size: 1.9rem;
     font-weight: 600;
   }
   .banner-child-2 {
-    top: 120%;
-    left: 10%;
+    padding: 10px 20px;
+    top: 112%;
+    left: 5%;
   }
   .banner-child-2 h1 {
     font-size: 1.4rem;
@@ -74,21 +86,30 @@
     font-weight: 600;
   }
   .banner-child-3 {
-    top: 124%;
-    left: 13%;
+    top: 115%;
+    left: 9%;
   }
   .child-container {
     margin-right: 50px;
   }
 
   .parents {
-    margin-top: 320px;
+    margin-top: 600px;
+  }
+  .parents p {
+    width: 80%;
+    margin-bottom: 14px;
+    margin-left: 40px;
+  }
+  .parents .short-des {
+    padding: 0;
   }
 
   .main-container {
     margin-top: 50px;
   }
-  .title-part {
+  .title-part,
+  .bmi-calculator-left {
     width: 100%;
   }
   .title-part button {
@@ -103,6 +124,9 @@
     max-width: 90%;
     flex-direction: column;
     margin: 0 auto;
+  }
+  .bmi-calculator-heading p {
+    width: 100%;
   }
   .bmi-calculator-right {
     justify-content: center;
@@ -123,6 +147,9 @@
   }
   .select-box-first {
     margin-top: 10px;
+  }
+  .input-box-3 > .select-box-second {
+    width: 90%;
   }
   .select-container {
     width: 250px;
@@ -165,8 +192,5 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 20px;
-  }
-  .last-line {
-    text-align: left;
   }
 }

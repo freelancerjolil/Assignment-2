@@ -99,7 +99,7 @@ main > section {
 }
 .banner-left-container{
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
   /* border: 2px solid red; */
   margin: 0 auto;
 }
@@ -123,6 +123,9 @@ main > section {
   color: rgba(255, 255, 255, 0.5);
   padding-right: 180px;
   margin-bottom: 28px;
+}
+.btn-banner {
+  width: 100%;
 }
 .banner-btn1{
   color: white;
@@ -161,7 +164,7 @@ main > section {
   border-radius: 16px;
   position: absolute;
   top: 25%;
-  left: 70%;
+  left: 68%;
 }
 .banner-child-1 h1{
   font-size: 48px;
@@ -173,8 +176,8 @@ main > section {
   color: #FFFFFFA6;
 }
 .banner-child-2{
-  width: 206px;
-  height: 96px;
+  /* width: 206px;
+  height: 96px; */
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
@@ -182,7 +185,7 @@ main > section {
   border-radius: 8px;
   backdrop-filter: blur(20px);
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 52%; 
 }
 .banner-child-2 h1{
@@ -204,7 +207,7 @@ main > section {
   border-radius: 50%;
   background: #e6533c;
   position: absolute;
-  top: 63.5%; 
+  top: 53%; 
   left: 53%;
   
 }
@@ -525,7 +528,7 @@ padding: 0 30px 0 15px;
   padding: 0 30px 0 15px;
   background-color: #3B3B3B;
   color: #8b8c8c;
-  min-width: 500px;
+  width: 500px;
   height: 40px;
   border-radius: 8px;
   margin: 10px 0 ;
@@ -668,17 +671,18 @@ padding: 0 30px 0 15px;
   margin-top: 14px;
 }
 .last-line {
-  max-width: 1060px;
+ width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  
 }
 .last-line p {
   font-size: 14px;
   font-weight: 400;
   color: #8b8c8c;
   margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 /* Footer Section Start */
