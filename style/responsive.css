@@ -19,17 +19,32 @@
     width: 100%;
   }
   .banner,
+  .footer-container,
   .child-container,
+  .teams-title,
   .main-container,
   .training-container,
-  .bmi-calculator5 {
+  .trainer .bmi-calculator5 {
     flex-direction: column;
     max-width: 90%;
     align-items: center;
     margin: 0 auto;
   }
+  .training-container {
+    margin-top: 20px;
+  }
+  .training-container p {
+    width: 85%;
+  }
   .banner img {
     max-width: 100%;
+  }
+  .bmi-calculator-heading {
+    max-width: 90%;
+    margin-top: 100px;
+  }
+  .bmi-calculator-heading p {
+    max-width: 90%;
   }
 
   .banner-left-container h1 {
@@ -37,7 +52,7 @@
   }
   .banner-child-1 {
     padding: 15px 25px;
-    top: 90%;
+    top: 100%;
     left: 55%;
   }
   .banner-child-1 h1 {
@@ -45,7 +60,7 @@
     font-weight: 600;
   }
   .banner-child-2 {
-    top: 108%;
+    top: 120%;
     left: 10%;
   }
   .banner-child-2 h1 {
@@ -57,7 +72,7 @@
     font-weight: 600;
   }
   .banner-child-3 {
-    top: 112%;
+    top: 124%;
     left: 13%;
   }
   .child-container {
@@ -68,8 +83,7 @@
     margin-top: 320px;
   }
 
-  .main-container,
-  .training-container {
+  .main-container {
     margin-top: 50px;
   }
   .title-part {
@@ -85,10 +99,49 @@
   .bmi-calculator5 p {
     width: 100%;
   }
+  .bmi-calculator-main {
+    max-width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
   .movement {
     margin-left: 50px;
   }
+  .trainer {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+  .trainer-teams-1,
+  .trainer-teams-2 {
+    display: none;
+  }
+  .bmi-calculator-input-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .select-container {
+    width: 250px;
+    height: 40px;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+
   .footer {
     margin-top: 20px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-left,
+  .footer-midle,
+  .footer-right {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .last-line {
+    text-align: left;
   }
 }
