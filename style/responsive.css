@@ -24,7 +24,7 @@
   .teams-title,
   .main-container,
   .training-container,
-  .trainer .bmi-calculator5 {
+  .trainer {
     flex-direction: column;
     max-width: 90%;
     align-items: center;
@@ -96,16 +96,16 @@
     width: 100%;
     margin-top: 40px;
   }
-  .bmi-calculator5 p {
-    width: 100%;
-  }
+
   .bmi-calculator-main {
     max-width: 90%;
     flex-direction: column;
     margin: 0 auto;
   }
-  .movement {
-    margin-left: 50px;
+  .bmi-calculator-right {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
   }
   .trainer {
     grid-template-columns: repeat(1, 1fr);
@@ -118,6 +118,9 @@
   .bmi-calculator-input-box {
     display: flex;
     flex-direction: column;
+  }
+  .select-box-first {
+    margin-top: 10px;
   }
   .select-container {
     width: 250px;
