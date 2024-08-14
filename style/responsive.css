@@ -193,4 +193,8 @@
     margin: 0 auto;
     margin-top: 20px;
   }
+  .last-line {
+    width: 90%;
+    justify-content: start;
+  }
 }
