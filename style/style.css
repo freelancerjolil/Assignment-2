@@ -155,12 +155,12 @@ main > section {
   backdrop-filter: blur(20px);
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
-  padding: 20px 30px;
+  padding: 15px 25px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   position: absolute;
   top: 25%;
-  left: 68%;
+  left: 70%;
 }
 .banner-child-1 h1{
   font-size: 48px;

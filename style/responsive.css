@@ -28,6 +28,10 @@
   .banner-left-container p {
     padding-right: 0;
   }
+  .banner-left-container span {
+    font-weight: 600;
+    font-size: 6rem;
+  }
   .banner,
   .footer-container,
   .child-container,
@@ -66,28 +70,32 @@
   .banner-child-1 {
     padding: 10px 20px;
     top: 90%;
-    left: 50%;
+    left: 54%;
   }
   .banner-child-1 h1 {
-    font-size: 1.9rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
+  .banner-child-1 p {
+    font-size: 0.8rem;
+  }
+
   .banner-child-2 {
     padding: 10px 20px;
-    top: 112%;
-    left: 5%;
+    top: 115%;
+    left: 0;
   }
   .banner-child-2 h1 {
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 500;
   }
   .banner-child-2 p {
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 0.7rem;
+    font-weight: 400;
   }
   .banner-child-3 {
-    top: 115%;
-    left: 9%;
+    top: 118%;
+    left: 3%;
   }
   .child-container {
     margin-right: 50px;
