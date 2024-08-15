@@ -83,7 +83,7 @@
     position: absolute;
     padding: 10px 20px;
     top: 15%;
-    left: 54%;
+    right: 0;
   }
   .banner-child-1 h1 {
     font-size: 1.5rem;
