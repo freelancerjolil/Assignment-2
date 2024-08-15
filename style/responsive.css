@@ -7,6 +7,9 @@
     cursor: pointer;
     margin-right: 20px;
   }
+  .banner-child-3 i {
+    display: block;
+  }
   .nav-links,
   .trainer-name5,
   .trainer-name6 {
@@ -21,6 +24,11 @@
   .banner-right-container {
     width: 100%;
   }
+  .banner-right-container img {
+    /* border: 2px solid blue; */
+    margin-left: 0px;
+    position: relative;
+  }
   .banner-title h1 {
     width: 576px;
     font-size: 20px;
@@ -29,8 +37,8 @@
     padding-right: 0;
   }
   .banner-left-container span {
-    font-weight: 600;
-    font-size: 6rem;
+    font-weight: 400;
+    font-size: 5rem;
   }
   .banner,
   .footer-container,
@@ -137,9 +145,30 @@
     width: 100%;
   }
   .bmi-calculator-right {
-    justify-content: center;
     width: 100%;
-    align-items: center;
+  }
+
+  .bmi-calculator-input-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-box1,
+  .input-box-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .cal-btn {
+    margin-top: 10px;
+  }
+  #input {
+    width: 50%;
+  }
+  .select-box-first {
+    width: 50%;
+  }
+  .select-box-second {
+    width: 100%;
   }
   .trainer {
     grid-template-columns: repeat(1, 1fr);
@@ -148,16 +177,6 @@
   .trainer-teams-1,
   .trainer-teams-2 {
     display: none;
-  }
-  .bmi-calculator-input-box {
-    display: flex;
-    flex-direction: column;
-  }
-  .select-box-first {
-    margin-top: 10px;
-  }
-  .input-box-3 > .select-box-second {
-    width: 90%;
   }
   .select-container {
     width: 250px;
