@@ -97,7 +97,8 @@ main > section {
   width: 50%;
   /* height: 100%; */
   /* border: 2px solid red; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-right: 200px;
 }
 .banner-left-container h1{
   font-size: 5rem;
@@ -145,9 +146,9 @@ main > section {
   width: 50%;
   /* border: 2px solid blue; */
 }
-.banner-right-container img{
+.banner-right-container {
   /* border: 2px solid blue; */
-  margin-left: 190px;
+  /* margin-left: 185px; */
   position: relative;
 }
 .banner-child-1{
@@ -181,8 +182,8 @@ main > section {
   border-radius: 8px;
   backdrop-filter: blur(20px);
   position: absolute;
-  top: 50%;
-  left: 52%; 
+  top: 60%;
+  left: -10%; 
 }
 .banner-child-2 h1{
   font-size: 24px;
@@ -203,8 +204,8 @@ main > section {
   border-radius: 50%;
   background: #e6533c;
   position: absolute;
-  top: 53%; 
-  left: 53%;
+  top: 35%;
+  left: 10%; 
   
 }
 .banner-child-3 i{

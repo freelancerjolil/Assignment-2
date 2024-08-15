@@ -23,11 +23,15 @@
   .banner-left-container,
   .banner-right-container {
     width: 100%;
+    position: relative;
+  }
+  .banner-left-container {
+    margin-right: 0px;
   }
   .banner-right-container img {
     /* border: 2px solid blue; */
-    margin-left: 0px;
-    position: relative;
+    width: 90%;
+    margin: 0 auto;
   }
   .banner-title h1 {
     width: 576px;
@@ -76,8 +80,9 @@
   }
 
   .banner-child-1 {
+    position: absolute;
     padding: 10px 20px;
-    top: 90%;
+    top: 15%;
     left: 54%;
   }
   .banner-child-1 h1 {
@@ -90,8 +95,8 @@
 
   .banner-child-2 {
     padding: 10px 20px;
-    top: 115%;
-    left: 0;
+    top: 60%;
+    left: -10%;
   }
   .banner-child-2 h1 {
     font-size: 1.4rem;
@@ -101,10 +106,7 @@
     font-size: 0.7rem;
     font-weight: 400;
   }
-  .banner-child-3 {
-    top: 118%;
-    left: 3%;
-  }
+
   .child-container {
     margin-right: 50px;
   }
