@@ -49,25 +49,37 @@
   .child-container,
   .teams-title,
   .main-container,
-  .training-container,
   .trainer {
     flex-direction: column;
     max-width: 90%;
     align-items: center;
     margin: 0 auto;
   }
-  .training-container {
-    margin-top: 20px;
-  }
-  .training-container p {
+  .training-packages-container {
     width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .packages-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .packages-container {
+    gap: 30px;
+
+    padding: 20px 0;
+    border-radius: 18px;
   }
   .banner img {
     width: 100%;
   }
   .bmi-calculator-heading {
-    max-width: 90%;
-    margin-top: 100px;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
   }
   .btn-banner button {
     width: 100%;
@@ -139,7 +151,7 @@
   }
 
   .bmi-calculator-main {
-    max-width: 90%;
+    width: 90%;
     flex-direction: column;
     margin: 0 auto;
   }
